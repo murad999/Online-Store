@@ -51,7 +51,7 @@
                                     </td>
 
                                     <td class="product-price">
-                                        <h5 class="price amount">${{$product->price}}</h5>
+                                        <h5 class="price amount">${{number_format($product->price)}}</h5>
                                     </td>
 
                                     <td class="product-quantity">
